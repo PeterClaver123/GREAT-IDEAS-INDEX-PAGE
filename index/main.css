@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width:1440px) and (min-width:1025px){
+	footer { position: static; }
+	header { padding-top:0; }
+}
+@media (max-width:360px) and (min-width:200px){
+	footer { position: static; }
+	header { padding-top:0; }
+}
+@media (max-width:1024px) and (min-width:769px){
+	footer { position: static; }
+	header { padding-top:0; }
+}
+@media (max-width:375px) and (min-width:319px){
+	footer { position: static; }
+	header { padding-top:0; }
+}
+@media (max-width:425px) and (min-width:320px){
+	footer { position: static; }
+	header { padding-top:0; }
+}
+@media (max-width:768px) and (min-width:426px){
+	footer { position: static; }
+	header { padding-top:0; }
+}  
+@media screen and (min-width: 200px) {
+    body {
+      background-color: #69a6e3;
+    }
+  }
+.nav-item{
+    text-align: right;
+    margin-right: 15px;
+    position: relative;
+}
+.btn-outline-success {
+    color: #fff;
+    border-color: #198754;
+}
+.navbar-brand{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.nav-link{
+    color: black;
+    font-size: 15px;
+    text-align: right;
+}
+.carousel-inner{
+    height: 500px;
+}
+#carouselExampleDark{
+    height: 500px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+}
+.carousel carousel-dark slide{
+    height: 500px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.navbar-light .navbar-brand {
+    color: rgba(253, 246, 246, 0.9);
+}
+
+
+
+
+/*-----carousel image slider----*/
+.carousel-item{
+    height: 700px;
+    background-color: #5896f3;
+  width: 100%;
+}
+.link{
+    color: rgb(239, 243, 9);
+    font-size: 30px;
+    font-style: bold;
+}
+.heading {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    color: white;
+    font-style: bold;
+    text-align: center;
+    font-size: 20px;
+}
+
+.w-100 {
+    width: 100%!important;
+    height: 500px;
+}
+
+/*--------------------------------------------------------------
+# services
+--------------------------------------------------------------*/
+#services{
+    background-color: #69a6e3;
+}
+
+.services .icon-box {
+
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    transition: ease-in-out 0.3s;
+    outline: brown;
+}
+
+.services .icon-box:hover{
+    background-color: #e1e1e1;
+    box-shadow: 0 0 20px #0d6efd;
+}
+
+.services .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    color: #1d71c5;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+.services a {
+    color: #0d6efd;
+    text-align: center;
+
+}
+
+
+.services p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: grey;
+}
+
+.services h1{
+    display: block;
+    /*margin-block-start: 1em;*/
+    /*margin-block-end: 1em;*/
+    /*margin-inline-start: 0px;*/
+    /*margin-inline-end: 0px;*/
+    color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+    background: #69a6e3;
+    padding: 70px 0 60px;
+}
+
+.counts .count-box {
+    padding: 30px 30px 25px 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: #fff;
+}
+
+.counts .count-box i {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    background: #0d6efd;
+    padding: 12px;
+    color: #fff;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    width: 48px;
+    height: 48px;
+}
+
+.counts .count-box span {
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #0d6efd;
+}
+
+.counts .count-box p {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
